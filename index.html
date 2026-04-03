@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Автоэлектрик на выезд | Профессиональный ремонт автоэлектрики</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+          font-family: 'Inter', sans-serif;
+          scroll-behavior: smooth;
+      }
+      .hero-gradient {
+          background: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 41, 59, 0.8) 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="text-2xl font-bold text-blue-600">АвтоЭлектро-Выезд</div>
+        <div class="hidden md:flex space-x-8 font-medium">
+          <a href="#services" class="hover:text-blue-600 transition">Услуги</a>
+          <a href="#about" class="hover:text-blue-600 transition">Обо мне</a>
+          <a href="#contact" class="hover:text-blue-600 transition">Контакты</a>
+        </div>
+        <a
+          href="tel:+79044730787"
+          class="bg-blue-600 text-white px-5 py-2 rounded-full font-semibold hover:bg-blue-700 transition"
+        >
+          Вызвать мастера
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <img
+          src="https://284baef4-3d14-4ca5-8247-4811f0d6b14b.selstorage.ru/d3ead713-3fc0-44cf-8b35-4ad29432bc73_ad2a3bfc-5cbd-4f29-8c4f-bf45a643e977.png"
+          alt="Автоэлектрик-мужчина за работой"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 hero-gradient"></div>
+      </div>
+
+      <div class="container mx-auto px-6 relative z-10 text-white">
+        <div class="max-w-2xl">
+          <span
+            class="inline-block bg-blue-600 text-sm font-bold uppercase tracking-wider px-3 py-1 rounded mb-4"
+            >Выезд с 8:00 до 01:00</span
+          >
+          <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+            Автоэлектрик <br /><span class="text-blue-400"
+              >прямо в месте поломки</span
+            >
+          </h1>
+          <p class="text-xl text-slate-300 mb-8">
+            Профессиональный частный автоэлектрик. Ремонт проводки, диагностика,
+            запуск двигателя и устранение неисправностей любой сложности с
+            выездом к вашему автомобилю.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="#contact"
+              class="bg-blue-600 hover:bg-blue-700 text-white text-center px-8 py-4 rounded-xl font-bold text-lg transition shadow-lg shadow-blue-500/20"
+            >
+              Заказать выезд
+            </a>
+            <a
+              href="#services"
+              class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white text-center px-8 py-4 rounded-xl font-bold text-lg border border-white/30 transition"
+            >
+              Наши услуги
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">Что я предлагаю</h2>
+          <p class="text-slate-600 max-w-xl mx-auto">
+            Полный спектр услуг по электрике легковых и грузовых автомобилей
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Ремонт проводки</h3>
+            <p class="text-slate-600">
+              Поиск обрывов, устранение коротких замыканий и замена поврежденных
+              участков кос любого уровня сложности.
+            </p>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Компьютерная диагностика</h3>
+            <p class="text-slate-600">
+              Чтение и сброс ошибок всех блоков управления, адаптация датчиков и
+              исполнительных механизмов.
+            </p>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition"
+          >
+            <div
+              class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Разблокировка сигнализаций</h3>
+            <p class="text-slate-600">
+              Отключение нештатных систем охраны, запуск двигателя при
+              блокировках иммобилайзера.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-slate-900 py-24 text-white">
+      <div class="container mx-auto px-6">
+        <div
+          class="max-w-4xl mx-auto bg-slate-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row"
+        >
+          <div class="p-12 md:w-1/2">
+            <h2 class="text-3xl font-bold mb-6">Оставить заявку</h2>
+            <p class="text-slate-400 mb-8">
+              Опишите проблему и марку авто, и я перезвоню вам в течение 5 минут
+              для консультации.
+            </p>
+
+            <form class="space-y-4">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Ваше имя"
+                  class="w-full bg-slate-700 border-none rounded-xl px-5 py-4 text-white focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div>
+                <input
+                  type="tel"
+                  placeholder="+7 (___) ___-__-__"
+                  class="w-full bg-slate-700 border-none rounded-xl px-5 py-4 text-white focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-xl font-bold transition"
+              >
+                Отправить заявку
+              </button>
+            </form>
+          </div>
+
+          <div class="bg-blue-600 p-12 md:w-1/2 flex flex-col justify-center">
+            <h3 class="text-2xl font-bold mb-6 italic">
+              "Приеду и починю там, где другие не смогли"
+            </h3>
+            <div class="space-y-6">
+              <div class="flex items-center">
+                <div
+                  class="w-10 h-10 border border-white/30 rounded-full flex items-center justify-center mr-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    />
+                  </svg>
+                </div>
+                <span class="text-xl font-semibold">+7 (904) 473-07-87</span>
+              </div>
+              <div class="flex items-center">
+                <div
+                  class="w-10 h-10 border border-white/30 rounded-full flex items-center justify-center mr-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <span>Работаю ежедневно: 08:00 — 01:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-200">
+      <div class="container mx-auto px-6 text-center text-slate-500">
+        <p>&copy; 2024 Частный автоэлектрик на выезд. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>
